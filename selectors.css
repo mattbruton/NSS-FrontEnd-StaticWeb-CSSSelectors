@@ -1,0 +1,68 @@
+a:visited {
+  text-decoration: none;
+}
+
+a {
+  color: blue;
+}
+
+header {
+  border: 1px solid black;
+}
+
+header li {
+  list-style-type: none;
+  display: inline;
+  padding: 0px 5px;
+}
+
+.disabled {
+  color: grey;
+}
+
+.disabled:visited {
+  color: grey;
+}
+
+a .disabled {
+  color: purple;
+}
+
+.active {
+  color: yellow;
+}
+
+.red {
+  color: red;
+}
+
+.blue {
+  color: blue;
+}
+
+.red ~ h4 {
+  background-color: red;
+}
+
+.blue ~ h4 {
+  background-color: blue;
+}
+
+.grandparent > h4 {
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.promo {
+  color: gold;
+  font-weight: bold;
+}
+
+.promo span {
+  color: gold;
+  font-weight: bold
+}
+
+footer input {
+  height: 25px;
+}
